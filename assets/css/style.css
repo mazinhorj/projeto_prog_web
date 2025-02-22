@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #020a38 !important;/* Cor de fundo */
+    background-image: url('../imgs/bgtile.jpg'); /* Caminho para a imagem de fundo */
+    color: aliceblue !important;
+}
+
+header {
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    margin: 2rem;
+    align-items: left;
+    justify-content: left;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav ul li a:hover {
+    color: rgb(211, 248, 253);
+    text-shadow: 1px 1px 1px white;
+}
+
+nav ul {
+    align-items: left;
+    justify-content: left;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 400px;
+}
+
+#inicial {
+    background-color: rgb(40, 62, 136, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    padding: 2rem;
+    border: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.date{
+    margin: 2rem;
+    max-width: max-content;
+}
+
+#signo-form {
+    display: none;
+    background-color: rgb(40, 62, 136, 0.5);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    padding: 4rem;
+    border: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+#final {
+    background-color: rgb(40, 62, 136, 0.5);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 380px;
+    padding: 2rem;
+    border: 2rem;
+    border-radius: 8px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    margin-top: 2rem;
+}
+
