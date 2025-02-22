@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Função para exibir o signo baseado na data atual
     function displaySigno(xml) {
         const today = new Date();
-        const month = today.getMonth() + 1; // Janeiro é 0
+        const month = today.getMonth() + 1;
         const day = today.getDate();
         const dateString = `${day}/${month}`;
 
@@ -37,6 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
 
+        // Exibe o signo do dia
         const mainContainer = document.querySelector("#inicial");
         if (signoEncontrado) {
             mainContainer.innerHTML = `<h3>O signo de hoje é:<br /> ${signoEncontrado}</h3>
@@ -67,7 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loadXMLDoc(); // Carregar o XML ao iniciar
 });
 
-
+// trata o formulário com o bootstrap css e chama o arquivo que vai tratar as datas para achar o signo correspondente no XML
 document.getElementById("signo-form").addEventListener("submit", function(event) {
     event.preventDefault(); // Impede o envio padrão do formulário
 
@@ -87,7 +88,39 @@ document.getElementById("signo-form").addEventListener("submit", function(event)
     });
 });
 
+function hideShow(){
+    var x = document.getElementById("inicial");
+    var y = document.getElementById("signo-form");
+        if (x.style.display === "none") {
+            x.style.display = "flex";
+        } else {
+            x.style.display = "none";
+        if (y.style.display === "none") {
+            y.style.display = "flex";
+        } else {
+            y.style.display = "flex";
+        
+        }
+    }
+}
 
+function hideShow2(){
+    var x = document.getElementById("signo-form");
+    var y = document.getElementById("final");
+        if (x.style.display === "none") {
+            x.style.display = "flex";
+        } else {
+            x.style.display = "none";
+        if (y.style.display === "none") {
+            y.style.display = "flex";
+        } else {
+            y.style.display = "flex";
+        
+        }
+    }
+}
+
+// para os links dos signos
 function loadSignoInfo(signo) {
     fetch('signos.xml')
         .then(response => {
@@ -116,7 +149,7 @@ function loadSignoInfo(signo) {
 
             if (informacaoSigno) {
                 document.getElementById('final').innerHTML = `
-                    <h1>${signo}:</h1>
+                    <h3>${signo}</h3>
                     <p>De ${informacaoSignoIni} à ${informacaoSignoFim}</p>
                     <p>${informacaoSigno}</p>
                     <a href="index.php" class="btn btn-primary">Voltar</a>
@@ -160,7 +193,7 @@ document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(event) {
         event.preventDefault(); // Impede o comportamento padrão do link
 
-        const signo = this.getAttribute('data-signo'); // Obtém o signo do atributo data
+        const signo = this.getAttribute('data-signo'); // Obtém o signo do atributo data-signo
         loadSignoInfo(signo); // Chama a função para carregar as informações
         hideShow3();
     });

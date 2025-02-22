@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $dataFormatada = date("d/m", strtotime($dataEscolhida));
 
     // Carregar o arquivo XML
-    $xml = simplexml_load_file('signos.xml'); // Substitua pelo caminho correto do seu XML
+    $xml = simplexml_load_file('signos.xml');
 
     $signoEncontrado = '';
 
