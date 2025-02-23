@@ -40,7 +40,7 @@
 
     <footer>
         <p>As informações deste site são de caráter recreativo, não tendo qualquer comprovação científica.</p>
-        <p>By MazinhobigDaddy&reg; - 2025</p>
+        <p>By MazinhoBigDaddy&reg; - 2025</p>
     </footer>
 
 </body>

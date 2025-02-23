@@ -4,72 +4,120 @@
         <dataInicio>21/03</dataInicio>
         <dataFim>20/04</dataFim>
         <signoNome>Áries</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Áries é o primeiro signo do zodíaco e é associado à coragem e à determinação. As pessoas de Áries são conhecidas por sua natureza enérgica e competitiva, sendo líderes natos. São impulsivas, mas também muito leais.</descricao>
     </signo>
     <signo>
         <dataInicio>21/04</dataInicio>
         <dataFim>20/05</dataFim>
         <signoNome>Touro</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Touro é um signo de terra, conhecido por sua estabilidade e praticidade. Os taurinos são apreciadores do conforto e da beleza, muitas vezes mostrando um grande apego às coisas materiais. São teimosos, mas também muito confiáveis.</descricao>
     </signo>
     <signo>
         <dataInicio>21/05</dataInicio>
         <dataFim>20/06</dataFim>
         <signoNome>Gêmeos</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Gêmeos é um signo de ar, simbolizando a versatilidade e a curiosidade. Pessoas desse signo são comunicativas, adaptáveis e têm uma mente inquieta. Podem ser indecisas, mas são sempre interessantes e divertidas.</descricao>
     </signo>
     <signo>
         <dataInicio>21/06</dataInicio>
         <dataFim>22/07</dataFim>
         <signoNome>Câncer</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Câncer é um signo de água, associado às emoções e à intuição. Os cancerianos são conhecidos por sua sensibilidade e proteção dos entes queridos. Embora possam ser reservados, possuem uma profunda capacidade de empatia.</descricao>
     </signo>
     <signo>
         <dataInicio>23/07</dataInicio>
         <dataFim>22/08</dataFim>
         <signoNome>Leão</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Leão é um signo de fogo, representando a criatividade e a autoconfiança. Os leoninos são carismáticos e adoram ser o centro das atenções. São generosos, mas podem ser dominantes e orgulhosos.</descricao>
     </signo>
     <signo>
         <dataInicio>23/08</dataInicio>
         <dataFim>22/09</dataFim>
         <signoNome>Virgem</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Virgem é um signo de terra, conhecido pela sua análise crítica e atenção aos detalhes. As pessoas de Virgem são práticas e organizadas, frequentemente buscando a perfeição em tudo que fazem. Podem ser excessivamente críticas.</descricao>
     </signo>
     <signo>
         <dataInicio>23/09</dataInicio>
         <dataFim>22/10</dataFim>
         <signoNome>Libra</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Libra é um signo de ar, associado à harmonia e ao equilíbrio. Os librianos são diplomáticos e sociáveis, buscando a justiça e a beleza nas relações. Podem ser indecisos, mas são ótimos mediadores.</descricao>
     </signo>
     <signo>
         <dataInicio>23/10</dataInicio>
         <dataFim>21/11</dataFim>
         <signoNome>Escorpião</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Escorpião é um signo de água, conhecido por sua intensidade e paixão. As pessoas desse signo são profundas e misteriosas, com um forte instinto de sobrevivência. Podem ser ciumentas, mas são extremamente leais.</descricao>
     </signo>
     <signo>
         <dataInicio>22/11</dataInicio>
         <dataFim>21/12</dataFim>
         <signoNome>Sagitário</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Sagitário é um signo de fogo, simbolizando a aventura e o otimismo. Os sagitarianos são exploradores natos, com um amor pela liberdade e pelo conhecimento. Podem ser impacientes, mas são sempre inspiradores.</descricao>
     </signo>
     <signo>
         <dataInicio>22/12</dataInicio>
         <dataFim>20/01</dataFim>
         <signoNome>Capricórnio</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Capricórnio é um signo de terra, associado à disciplina e à ambição. Os capricornianos são trabalhadores e focados, buscando sempre alcançar seus objetivos. Podem ser reservados, mas são extremamente confiáveis.</descricao>
     </signo>
     <signo>
         <dataInicio>21/01</dataInicio>
         <dataFim>19/02</dataFim>
         <signoNome>Aquário</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Aquário é um signo de ar, representando a inovação e a originalidade. As pessoas desse signo são independentes e têm um forte senso de justiça. Podem ser excêntricas, mas são sempre pensadoras progressistas.</descricao>
     </signo>
     <signo>
         <dataInicio>20/02</dataInicio>
         <dataFim>20/03</dataFim>
         <signoNome>Peixes</signoNome>
+        <signoSimbolo></signoSimbolo>
+        <signoPedras></signoPedras>
+        <signoElemento></signoElemento>
+        <signoNumeros></signoNumeros>
         <descricao>Peixes é um signo de água, conhecido pela sua empatia e criatividade. Os piscianos são sonhadores e intuitivos, com uma rica vida interior. Podem ser escapistas, mas são profundamente compreensivos.</descricao>
     </signo>
 </signos>
